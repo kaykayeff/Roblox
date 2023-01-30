@@ -36,8 +36,7 @@ function notifications.new(x, y, z) -- its gonna be name, text, time on screen
 	assert(typeof(name, desc) == "string", "title isn't a string")
 	assert(typeof(timeonsc) == "number", "time on screen isn't a number")
 	
-	local gui =  
-Instance.new("ScreenGui", game.CoreGui)
+	local gui = Instance.new("ScreenGui", game.CoreGui)
 	
 gui.Name = randomletters(10)
 	
