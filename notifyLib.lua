@@ -113,7 +113,6 @@ function notifications.new(x, y, z) -- its gonna be name, text, time on screen
 		TextSize = 12,
 		TextWrapped = true
 	})
-	task.wait(3)
 	mainframe:TweenPosition(UDim2.new(1, 0, 0.999, 0), "In", "Quad", 1)
 	task.wait(timeonsc)
 	mainframe:TweenPosition(UDim2.new(1.5, 0, 0.999, 0), "In", "Quad", 1)
