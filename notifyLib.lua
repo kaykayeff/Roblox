@@ -38,9 +38,9 @@ function notifications.new(x, y, z) -- its gonna be name, text, time on screen
 	
 	local gui = Instance.new("ScreenGui", game.CoreGui)
 	
-gui.Name = randomletters(10)
+	gui.Name = randomletters(10)
 	
-gui.ResetOnSpawn = false
+	gui.ResetOnSpawn = false
 	
 	local mainframe = util.new("Frame", {
 		BackgroundTransparency = 0,
